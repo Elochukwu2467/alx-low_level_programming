@@ -4,19 +4,21 @@
  * print_alphabet_x10 - Make alphabet x10 times
  * Return: void
  */
-void print_alphabet_x10(void)
-{
 
-	char ch;
-	int i;
-	i = 0;
-	while (i < 10)
+void print_alphabet_x10(void)
+
+{
+	char c;
+	int i = 0;
+
+	while (i <= 9)
 	{
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-	_putchar(ch);
-	}
+	_putchar(c);
+
 	_putchar('\n');
 	i++;
+	}
 	}
 }
