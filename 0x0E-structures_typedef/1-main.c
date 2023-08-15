@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-	struct doy my_dog;
+	struct dog my_dog;
 
-	init_dog((&my_dog, "Popcy", 3.5, "Bob");
-	printf("My name is %s,and  I am %.1f :) - Woof!\n", my_dog.name. my_dog.age);
+	init_dog(&my_dog, "Popcy", 3.5, "Bob");
+	printf("My name is %s,and  I am %.1f :) - Woof!\n", my_dog.name, my_dog.age);
 	return (0);
 }
 
